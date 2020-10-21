@@ -16,6 +16,7 @@ header {
   position: absolute;
   top: 0;
   left: 20px;
+  top: 25px;
 }
 
 #entete {
@@ -30,11 +31,6 @@ header {
   position: fixed;
   width: 100%;
   z-index: +1;
-}
-
-#logo {
-  float: left;
-  margin-top: 40px;
 }
 
 ul {
@@ -182,10 +178,6 @@ li {
   font-size: 30px;
 }
 
-.txt {
-  text-align: center;
-}
-
 #projet1:hover #projet1txt,
 #projet2:hover #projet2txt,
 #projet3:hover #projet3txt {
@@ -203,10 +195,9 @@ li {
   color: #ffffff;
 }
 
-#projet1,
-#projet2,
-#projet3 {
+.txt {
   text-shadow: 1px 2px 3px black;
+  text-align: center;
 }
 
 #projet3 {

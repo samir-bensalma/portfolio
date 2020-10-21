@@ -51,6 +51,7 @@ li {
 
 main {
   font-family: "Old Standard TT", serif;
+  font-size: 30px;
   background-color: #eeeeee;
   display: flex;
   flex-direction: column;
@@ -78,13 +79,8 @@ main {
   margin-bottom: 5%;
 }
 
-#titre1 {
-  font-size: 40px;
+h1 {
   text-shadow: 1px 2px 3px black;
-}
-
-#description1 {
-  font-size: 30px;
 }
 
 #partie2img,
@@ -95,11 +91,9 @@ main {
 #partie2txt,
 #partie3txt {
   width: 40%;
-  font-size: 30px;
 }
 
 #descriptioniframe {
-  font-size: 25px;
   text-align: center;
 }
 
